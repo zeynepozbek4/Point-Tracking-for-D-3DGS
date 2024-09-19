@@ -1,0 +1,16 @@
+name: dynamic_gaussians
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=12.5
+  - python=3.10.14
+  - pip=24.0
+  - pytorch=2.3.1
+  - torchaudio=2.3.1
+  - torchvision=0.18.1
+  - tqdm=4.66.4
+  - Pillow=10.4.0
+  - pip:
+    - open3d==0.16.0w
